@@ -2,6 +2,7 @@
 
 ##Variables
 
+* Variables are normalized and bounded within [-1,1]. There is no unit of measurement.
 * Variables with prefix "t" denote time domain signals.
 * Variables with prefix "f" denote frequency domain signals.
 * '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
@@ -13,6 +14,7 @@
 * tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ - the body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 * tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag - Magnitude of three-dimensional signals calculated using the Euclidean norm
 * fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag - Fast Fourier Transform (FFT) applied to some of the signals 
+
 
 Full list of variables:
 
@@ -82,3 +84,11 @@ Full list of variables:
 64. fBodyAccJerkMag.std 
 65. fBodyGyroMag.std 
 66. fBodyGyroJerkMag.std
+
+### Tidy Data
+
+The tidy data created contains subject, acitivity and 66 variables mentioned above. After calculating
+the summary of each variable for each subject and activity the name of the variable has not been changed.
+Final dimension of the tidy data is (180,68). 
+  - Columns -  Subject(1), Activity(1) and variables(66) - Total number of columns = 68
+  - Rows - Subject(30) * Activity(6) = 180
