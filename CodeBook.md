@@ -7,7 +7,6 @@
 * '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 * mean() denotes mean value.
 * std() denotes Standard deviation.
-
 * tAcc- Accelerometer raw signals
 * tGyro - Gyroscope raw signals
 * tBodyAcc-XYZ and tGravityAcc-XYZ - acceleration signal separated into body and gravity acceleration signals
