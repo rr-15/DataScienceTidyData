@@ -2,18 +2,18 @@
 
 ##Variables
 
-Variables with prefix "t" denote time domain signals.
-Variables with prefix "f" denote frequency domain signals.
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
-mean() denotes mean value.
-std() denotes Standard deviation.
+* Variables with prefix "t" denote time domain signals.
+* Variables with prefix "f" denote frequency domain signals.
+* '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+* mean() denotes mean value.
+* std() denotes Standard deviation.
 
-tAcc- Accelerometer raw signals
-tGyro - Gyroscope raw signals
-tBodyAcc-XYZ and tGravityAcc-XYZ - acceleration signal separated into body and gravity acceleration signals
-tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ - the body linear acceleration and angular velocity were derived in time to obtain Jerk signals
-tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag - Magnitude of three-dimensional signals calculated using the Euclidean norm
-fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag - Fast Fourier Transform (FFT) applied to some of the signals 
+* tAcc- Accelerometer raw signals
+* tGyro - Gyroscope raw signals
+* tBodyAcc-XYZ and tGravityAcc-XYZ - acceleration signal separated into body and gravity acceleration signals
+* tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ - the body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+* tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag - Magnitude of three-dimensional signals calculated using the Euclidean norm
+* fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag - Fast Fourier Transform (FFT) applied to some of the signals 
 
 Full list of variables:
 
