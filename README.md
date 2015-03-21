@@ -41,7 +41,7 @@ This file contains a single function run_analysis. The script structure and use 
 7.  Combine activity(Y), subject and X data together into single data set.
 8.  Modify column names to more descriptive. In this case the names are modified to follow the syntax rather than modifying the whole name created by experts.
 9.  Assign activity and subject as id variables and other columns as measure vars.
-10.  For each subject and per acitvity mean of each variable is calculated. 
+10.  For each subject and per acitvity, mean of each variable is calculated. 
 11.  Final dimension of the tidy data is (180,68). 
 
 *Columns -  Subject(1), Activity(1) and variables(66) - Total number of columns = 68
